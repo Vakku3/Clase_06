@@ -13,7 +13,7 @@ async function primero() {
     });
     //Ahora puedo armar el gráfico
     new Chart(document.getElementById("regiones"), {
-        type: "line",
+        type: "bar",
         data: {
             labels: regiones,
             datasets: [
